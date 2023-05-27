@@ -1,0 +1,25 @@
+.box-todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.delet{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.delet:hover{
+    background-color: rgb(76, 221, 226);
+    font-size: 24px;
+}
+
+.todo-text{
+    cursor: pointer;
+    margin : 20px
+}
